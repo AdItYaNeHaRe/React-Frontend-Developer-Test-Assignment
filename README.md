@@ -1,3 +1,101 @@
+# 📊 React Dashboard UI (Vite + Tailwind + shadcn/ui)
+
+A responsive and modern admin dashboard built using **React**, **Vite**, **Tailwind CSS**, and **shadcn/ui**, featuring:
+- Sidebar navigation
+- Article management table
+- Interactive charts using Recharts
+- Search functionality
+- Tabbed views
+- WordPress-style publish icon
+
+## 🔧 Technologies Used
+
+- ⚛️ React 18 (with TypeScript)
+- ⚡ Vite for blazing-fast development
+- 💨 Tailwind CSS for utility-first styling
+- 🧱 shadcn/ui components (accessible & elegant UI blocks)
+- 📊 Recharts for interactive charting
+- 🎨 Framer Motion for animations
+- 🧩 React Icons (WordPress icon and more)
+
+---
+
+## 📁 Folder Structure
+dashboard-ui/
+├── public/
+├── src/
+│ ├── components/
+│ │ ├── sidebar.tsx
+│ │ ├── dashboard-table.tsx
+│ │ └── charts/
+│ │ └── ArticleWordsChart.tsx
+│ ├── pages/
+│ │ ├── Dashboard.tsx
+│ │ ├── Reports.tsx
+│ │ └── Analytics.tsx
+│ ├── App.tsx
+│ ├── main.tsx
+│ └── index.css
+├── tailwind.config.js
+├── postcss.config.js
+├── tsconfig.app.json
+├── vite.config.ts
+├── package.json
+└── README.md
+
+📦 Features
+✅ Dashboard Page
+Interactive table listing articles
+
+Keywords with traffic metrics
+
+Word counts, created date, actions
+
+Tabbed filters (Generated / Published / Archived)
+
+Search input for filtering by title or keyword
+
+WordPress-style publish icon
+
+✅ Analytics Page
+Horizontal bar chart showing word count per article
+
+Built with Recharts
+
+✅ Sidebar Navigation
+Highlights active route
+
+Responsive design
+
+📊 Chart Example
+
+✨ Customization
+Modify mockData in dashboard-table.tsx to plug in real data.
+
+Add more charts in components/charts/.
+
+Replace tabs with backend-driven filters if needed.
+
+Extend Reports.tsx with content, KPIs, or charts.
+
+🧩 Useful Commands
+Command	Description
+npm run dev	Run development server
+npm run build	Create production build
+npm run preview	Preview production build locally
+
+📚 Credits
+Tailwind CSS
+
+shadcn/ui
+
+Recharts
+
+Framer Motion
+
+
+
+
 # React + TypeScript + Vite
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
